@@ -17,7 +17,7 @@
   6. `서비스중 / 외부 redirect로 변경` [선별진료소 현황](https://github.com/HyunSangHan/MBC-corona19-archive#%EC%84%A0%EB%B3%84%EC%A7%84%EB%A3%8C%EC%86%8C-%ED%98%84%ED%99%A9) 
 - 사용 기술: Django(DRF), python, MySQL, javascript, jQuery, Kakao Map API 등
 
-## 세계 요약 표 + 지도
+## 세계 요약 현황
 [바로가기 >](https://imnews.imbc.com/newszoomin/groupnews/groupnews_9/world.html)
 
 ### PC
@@ -26,7 +26,7 @@
 ### Mobile
 <img alt="overview world mobile" src="https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_mobile/overview_world.PNG" width="375">
 
-## 국내 요약 표
+## 국내 요약 현황
 [바로가기 >](https://imnews.imbc.com/newszoomin/groupnews/groupnews_9/index.html)
 
 ### PC
@@ -63,8 +63,8 @@
 <img alt="hospital korea mobile" src="https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_mobile/hospital.PNG" width="375">
 
 ## 운영 어드민
-### Main
+### 메인
 ![admin main](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/admin_main.png)
 
-### 항목별 예시
-![admin detail](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/admin_detail.png)
+### 항목별 데이터 목록(예시: 국가별 요약 현황)
+<img alt="admin detail" src="https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/admin_detail.png" width="600">
