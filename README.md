@@ -1,8 +1,9 @@
-실제 작업한 Repository는 private이며, 운영배포된 서비스 또한 확진환자 급증에 따라 운영리소스 이슈로 대부분의 spec을 fade out함에 따라 최초 스펙 아카이브용 Public repository를 만들었습니다.
+실제 작업한 Repository는 private이며, 운영배포된 서비스 또한 코로나 감염 상황이 잦아듦에 따라 종료되어 이를 아카이브하기 위한 Public repository를 만들었습니다.
 
 # MBC 코로나19 상황판
 - 기획: MBC
 - 개발: 서울대 멋쟁이사자처럼(3명)
+- 서비스기간: 2020년 2월 3일 월요일 ~ 2020년 4월 20일 월요일
 - 관련 뉴스기사
   * Article  
   [MBC, '신종 코로나바이러스' 상황판 오픈 (2020년 2월 3일 기사)](https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=102&oid=214&aid=0001011703)
