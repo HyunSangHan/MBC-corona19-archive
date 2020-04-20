@@ -1,25 +1,25 @@
-실제 작업한 Repository는 private이며, 운영배포된 서비스 또한 코로나 감염 상황이 잦아듦에 따라 종료되어 이를 아카이브하기 위한 Public repository를 만들었습니다.
+운영배포 후 약 80일간 서비스하여 일간 20만 정도의 PV를 기록했던 MBC Corona19 상황판은 2020년 4월 20일부로 **서비스 종료**되었음을 알려드립니다. 실제 작업한 Repository는 Private이며, 이 Repository는 운영했던 서비스를 아카이브하기 위한 용도의 Public repository입니다.
 
 # MBC 코로나19 상황판
 - 기획: MBC
 - 개발: 서울대 멋쟁이사자처럼(3명)
-- 서비스기간: 2020년 2월 3일 월요일 ~ 2020년 4월 20일 월요일
+- 개발기간: 2020년 2월 1일 ~ 2020년 2월 2일
+- 운영기간: 2020년 2월 3일 ~ 2020년 4월 20일
 - 관련 뉴스기사
   * Article  
   [MBC, '신종 코로나바이러스' 상황판 오픈 (2020년 2월 3일 기사)](https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=102&oid=214&aid=0001011703)
   * Video  
   [![MBC corona open new](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/video_thumbnail.png)](https://www.youtube.com/watch?v=F5YKbLUHGUU)
 - 서비스 구성
-  1. `서비스중` [세계 요약 표 + 지도](https://github.com/HyunSangHan/MBC-corona19-archive#%EC%84%B8%EA%B3%84-%EC%9A%94%EC%95%BD-%ED%91%9C--%EC%A7%80%EB%8F%84)
-  2. `서비스중` [국내 요약 표](https://github.com/HyunSangHan/MBC-corona19-archive#%EA%B5%AD%EB%82%B4-%EC%9A%94%EC%95%BD-%ED%91%9C)
-  3. `서비스종료` [국내 확진자 이동경로(카카오지도 표시)](https://github.com/HyunSangHan/MBC-corona19-archive#%EA%B5%AD%EB%82%B4-%ED%99%95%EC%A7%84%EC%9E%90-%EC%9D%B4%EB%8F%99%EA%B2%BD%EB%A1%9C)
-  4. `서비스종료` [국내 확진자 전파경로(Tree 그래프 형태)](https://github.com/HyunSangHan/MBC-corona19-archive#%EA%B5%AD%EB%82%B4-%ED%99%95%EC%A7%84%EC%9E%90-%EC%A0%84%ED%8C%8C%EA%B2%BD%EB%A1%9C)
-  5. `서비스종료` [휴업 현황](https://github.com/HyunSangHan/MBC-corona19-archive#%ED%9C%B4%EC%97%85%ED%8F%90%EC%87%84-%ED%98%84%ED%99%A9) 
-  6. `서비스중 / 외부 redirect로 변경` [선별진료소 현황](https://github.com/HyunSangHan/MBC-corona19-archive#%EC%84%A0%EB%B3%84%EC%A7%84%EB%A3%8C%EC%86%8C-%ED%98%84%ED%99%A9) 
+  1. [세계 요약 표 + 지도](https://github.com/HyunSangHan/MBC-corona19-archive#%EC%84%B8%EA%B3%84-%EC%9A%94%EC%95%BD-%ED%91%9C--%EC%A7%80%EB%8F%84)
+  2. [국내 요약 표](https://github.com/HyunSangHan/MBC-corona19-archive#%EA%B5%AD%EB%82%B4-%EC%9A%94%EC%95%BD-%ED%91%9C)
+  3. [국내 확진자 이동경로(카카오지도 표시)](https://github.com/HyunSangHan/MBC-corona19-archive#%EA%B5%AD%EB%82%B4-%ED%99%95%EC%A7%84%EC%9E%90-%EC%9D%B4%EB%8F%99%EA%B2%BD%EB%A1%9C)
+  4. [국내 확진자 전파경로(Tree 그래프 형태)](https://github.com/HyunSangHan/MBC-corona19-archive#%EA%B5%AD%EB%82%B4-%ED%99%95%EC%A7%84%EC%9E%90-%EC%A0%84%ED%8C%8C%EA%B2%BD%EB%A1%9C)
+  5. [휴업 현황](https://github.com/HyunSangHan/MBC-corona19-archive#%ED%9C%B4%EC%97%85%ED%8F%90%EC%87%84-%ED%98%84%ED%99%A9) 
+  6. [선별진료소 현황](https://github.com/HyunSangHan/MBC-corona19-archive#%EC%84%A0%EB%B3%84%EC%A7%84%EB%A3%8C%EC%86%8C-%ED%98%84%ED%99%A9) 
 - 사용 기술: Django(DRF), python, MySQL, javascript, jQuery, Kakao Map API 등
 
 ## 세계 요약 현황
-[바로가기 >](https://imnews.imbc.com/newszoomin/groupnews/groupnews_9/world.html)
 
 ### PC
 ![overview world pc](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/overview_world.png)
@@ -28,7 +28,6 @@
 <img alt="overview world mobile" src="https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_mobile/overview_world.PNG" width="375">
 
 ## 국내 요약 현황
-[바로가기 >](https://imnews.imbc.com/newszoomin/groupnews/groupnews_9/index.html)
 
 ### PC
 ![overview korea pc](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/overview_korea.jpeg)
@@ -37,7 +36,6 @@
 <img alt="overview korea mobile" src="https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_mobile/overview_korea.PNG" width="375">
 
 ## 국내 확진자 이동경로
-[바로가기 >](https://imnews.imbc.com/newszoomin/groupnews/groupnews_9/route.html)
 
 ### PC
 ![route korea pc](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/route.jpeg)
@@ -46,6 +44,7 @@
 <img alt="route korea mobile" src="https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_mobile/route.PNG" width="375">
 
 ## 국내 확진자 전파경로
+
 ### PC
 ![tree korea pc](https://github.com/HyunSangHan/MBC-corona19-archive/blob/master/docs/capture_pc/tree.jpeg)
 
